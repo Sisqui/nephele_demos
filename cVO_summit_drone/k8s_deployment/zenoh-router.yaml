@@ -10,11 +10,11 @@ spec:
   - name: zenoh-protocol
     protocol: TCP
     port: 7447    
-    nodePort: 30447 #$NODE_PORT
+    nodePort: 30455 #$NODE_PORT
   - name: zenoh-api
     protocol: TCP
     port: 8000
-    nodePort: 30450    
+    nodePort: 30451    
   selector:
     name: zenoh
 ---
